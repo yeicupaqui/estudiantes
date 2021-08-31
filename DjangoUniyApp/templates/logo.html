@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block contenido %}
+
+
+<img src="/static/img/img.jpg" class="img-fluid" alt="" height="500" width="1200">
+<div class="card-group">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">yeily</h5>
+        <p class="card-text yeily">-No busques nuevos paisajes, ve las cosas que ya tienes frente a ti con unos ojos nuevos. -Gerald Causse.</p>
+        <p class="card-text color"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">luis</h5>
+        <p class="card-text yeily">-La mitad de la belleza depende del paisaje, y la otra mitad de la persona que lo mira. -Liu Yutang.</p>
+        <p class="card-text color"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">kevin</h5>
+        <p class="card-text yeily">-Deja que tu corazón viaje ligero. Porque lo que traigas contigo se convierte en parte del paisaje. -Anne Bishop.</p>
+        <p class="card-text color"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+  <form>
+      <legend>FORMULARIO</legend>
+      <div class="mb-3">
+        <label for="TextInput" class="form-label">EMAIL</label>
+        <input type="text" id="TextInput" class="form-control" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="TextInput" class="form-label">DIRECCION</label>
+        <input type="TextInput" class="form-control" placeholder="">
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="TextInput" class="form-label">MENSAJE</label>
+        <input type="TextInput" class="form-control" placeholder="">
+        </select>
+      </div>
+      <div class="mb-3">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="FieldsetCheck" >
+          <label class="form-check-label" for="disabledFieldsetCheck">
+            Can't check this
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">ENVIAR</button>
+  </form>
+
+
+{% endblock contenido %}

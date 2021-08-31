@@ -1,0 +1,39 @@
+h1{color: wheat;
+    font-family: Cambria;
+}
+
+
+p{color: black;
+    font-family: Impact;
+
+}
+
+.productos{
+    background-color: lightskyblue;
+}
+
+table{
+    background-color: wheat;
+}
+nav{
+    background-color: wheat;
+}
+td{
+    background-color: floralwhite;
+}
+
+.recomendaciones{
+    background-color: lightskyblue;
+}
+footer{
+    background-color: wheat;
+}
+p{
+    background-color: hotpink;
+}
+p.yeily{
+    background-color: cyan;
+}
+p.color{
+    background-color: lightgoldenrodyellow;
+}

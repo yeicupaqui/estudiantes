@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block contenido %}
+
+<div class="productos">
+    <p>hola mi nombre es yeily</p>
+
+</div>
+<table>
+    <thead>
+        <tr>
+            <th> producto </th>
+            <th> valor </th>
+            <th> disponible </th>
+        </tr>
+
+
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>carro</td>
+            <td>37000</td>
+            <td>si</td>
+        </tr>
+        <tr>
+            <td>casa</td>
+            <td>45000</td>
+            <td>si</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>moto</td>
+            <td>1000</td>
+            <td>no</td>
+        </tr>
+    </tfoot>
+
+</div>
+
+
+
+</table>
+{% for x in lista %}
+{{ x }}
+{% endfor %}
+
+
+
+
+<div class="recomendaciones">
+    <p>RECOMENDACIONES</p>
+</div>
+
+<footer>
+    <ol>contacto:</ol>
+    <ol>direccion:</ol>
+    <ol>telefono:</ol>
+
+</footer>
+{% endblock contenido %}
